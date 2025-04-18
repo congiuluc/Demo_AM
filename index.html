@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeronautica Militare - Difesa</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar with Governo Italiano and Social Links -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="governo-link">
+                        <a href="#" class="text-white">
+                            <img src="https://placehold.co/30x30/ffffff/000000?text=IT" alt="Governo Italiano" class="gobierno-logo">
+                            <span>Governo Italiano</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="social-language">
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="language-selector">
+                            <a href="#" class="lang-active">IT</a>
+                            <a href="#">EN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header with Logo and Ministry Info -->
+    <header class="main-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div class="header-logos d-flex align-items-center">
+                        <a href="/" class="am-logo">
+                            <img src="https://placehold.co/80x80/003399/ffffff?text=AM" alt="Logo Aeronautica Militare" class="main-logo">
+                        </a>
+                        <div class="ministry-titles">
+                            <div class="ministry-name">Aeronautica Militare</div>
+                            <div class="ministry-subtitle">Ministero della Difesa</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="search-box">
+                        <form action="#" method="get" class="search-form">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Cerca nel sito..." aria-label="Cerca nel sito">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav class="main-navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                        <i class="fas fa-bars"></i> Menu
+                    </button>
+                    <div class="collapse navbar-collapse" id="mainNav">
+                        <ul class="navbar-nav main-menu">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Chi Siamo</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Storia</a>
+                                    <a class="dropdown-item" href="#">Missione</a>
+                                    <a class="dropdown-item" href="#">Tradizioni</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Organizzazione</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Organigramma</a>
+                                    <a class="dropdown-item" href="#">Reparti</a>
+                                    <a class="dropdown-item" href="#">Basi</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Operazioni</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Operazioni in corso</a>
+                                    <a class="dropdown-item" href="#">Missioni internazionali</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Mezzi</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Flotta Aerea</a>
+                                    <a class="dropdown-item" href="#">Sistemi Difensivi</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Per il Cittadino</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Concorsi</a>
+                                    <a class="dropdown-item" href="#">Meteo</a>
+                                    <a class="dropdown-item" href="#">Servizi</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner Slider -->
+    <div class="hero-slider">
+        <div class="container-fluid p-0">
+            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://placehold.co/1200x600/003399/ffffff?text=Aeronautica+Militare" class="d-block w-100" alt="Aeronautica Militare">
+                        <div class="carousel-caption">
+                            <h2>Nel blu dipinto di blu</h2>
+                            <p>Al servizio del Paese dal 1923</p>
+                            <a href="#" class="btn btn-outline-light">Scopri di più</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://placehold.co/1200x600/004489/ffffff?text=Forze+Armate" class="d-block w-100" alt="Forze Armate">
+                        <div class="carousel-caption">
+                            <h2>Difesa e Sicurezza</h2>
+                            <p>Vigilanza dello spazio aereo nazionale</p>
+                            <a href="#" class="btn btn-outline-light">Scopri di più</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Precedente</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Successivo</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fast Access Menu -->
+    <div class="fast-access">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="fast-access-menu">
+                        <div class="fast-access-item">
+                            <a href="#">
+                                <div class="fast-icon"><i class="fas fa-cloud-sun"></i></div>
+                                <div class="fast-text">Servizio Meteo</div>
+                            </a>
+                        </div>
+                        <div class="fast-access-item">
+                            <a href="#">
+                                <div class="fast-icon"><i class="fas fa-user-tie"></i></div>
+                                <div class="fast-text">Concorsi</div>
+                            </a>
+                        </div>
+                        <div class="fast-access-item">
+                            <a href="#">
+                                <div class="fast-icon"><i class="fas fa-images"></i></div>
+                                <div class="fast-text">Galleria</div>
+                            </a>
+                        </div>
+                        <div class="fast-access-item">
+                            <a href="#">
+                                <div class="fast-icon"><i class="fas fa-plane"></i></div>
+                                <div class="fast-text">Flotta Aerea</div>
+                            </a>
+                        </div>
+                        <div class="fast-access-item">
+                            <a href="#">
+                                <div class="fast-icon"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="fast-text">Le Nostre Basi</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- News Section -->
+    <section class="news-section">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <h2 class="section-title">Ultime Notizie</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="main-news">
+                        <div class="news-image">
+                            <img src="https://placehold.co/800x450/eeeeee/333333?text=News+Principale" alt="News Principale" class="img-fluid">
+                        </div>
+                        <div class="news-date">16 Apr 2025</div>
+                        <h3 class="news-title">Esercitazioni internazionali: conclusa la Spring Flag 2025</h3>
+                        <p class="news-excerpt">
+                            Si è conclusa con successo l'esercitazione Spring Flag 2025 che ha visto la partecipazione di forze aeree di 5 paesi NATO. 
+                            L'addestramento ha coinvolto oltre 40 velivoli e 500 militari.
+                        </p>
+                        <a href="#" class="read-more">Leggi di più <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="news-sidebar">
+                        <div class="news-item">
+                            <div class="news-date">15 Apr 2025</div>
+                            <h4>Firmato accordo per la nuova flotta di addestratori</h4>
+                            <a href="#" class="read-more">Leggi <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="news-item">
+                            <div class="news-date">14 Apr 2025</div>
+                            <h4>L'Aeronautica celebra l'anniversario del primo volo</h4>
+                            <a href="#" class="read-more">Leggi <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="news-item">
+                            <div class="news-date">12 Apr 2025</div>
+                            <h4>Missione di pace: il contributo dell'Aeronautica</h4>
+                            <a href="#" class="read-more">Leggi <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <a href="#" class="btn btn-outline-primary">Tutte le notizie</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Content -->
+    <section class="featured-content">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <h2 class="section-title">In Evidenza</h2>
+                </div>
+            </div>
+            <div class="row" id="featured-cards-container">
+                <!-- Le card saranno caricate dinamicamente dalla REST API -->
+                <div class="col-md-12 text-center">
+                    <div class="loading-spinner">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <span>Caricamento contenuti...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-info">
+                            <img src="https://placehold.co/80x80/003399/ffffff?text=AM" alt="Logo Aeronautica Militare" class="footer-logo">
+                            <div class="footer-title">Aeronautica Militare</div>
+                            <address>
+                                Viale dell'Università, 4<br>
+                                00185 Roma<br>
+                                <a href="mailto:info@aeronautica.difesa.it">info@aeronautica.difesa.it</a>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Chi Siamo</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Storia</a></li>
+                            <li><a href="#">Missione</a></li>
+                            <li><a href="#">Struttura</a></li>
+                            <li><a href="#">Contatti</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Servizi</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Servizio Meteo</a></li>
+                            <li><a href="#">Concorsi</a></li>
+                            <li><a href="#">Bandi di Gara</a></li>
+                            <li><a href="#">URP</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Media</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Galleria Foto</a></li>
+                            <li><a href="#">Video</a></li>
+                            <li><a href="#">Comunicati Stampa</a></li>
+                            <li><a href="#">Rassegna Stampa</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Legale</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Note Legali</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                            <li><a href="#">Mappa del Sito</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="copyright">
+                            &copy; 2025 Aeronautica Militare - Tutti i diritti riservati
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="social-links text-end">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS per il caricamento delle card dalla REST API -->
+    <script src="app.js"></script>
+</body>
+</html>
